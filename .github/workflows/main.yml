@@ -1,8 +1,8 @@
 name: Sync Fork with Upstream
 
-on:
-  schedule:
-    - cron: '0 0 * * *' # Set your preferred schedule, e.g., every day
+# on:
+#   schedule:
+#     - cron: '0 0 * * *' # Set your preferred schedule, e.g., every day
 
 jobs:
   sync:
