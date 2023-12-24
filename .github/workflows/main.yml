@@ -1,8 +1,11 @@
 name: Sync Fork with Upstream
 
-# on:
-#   schedule:
-#     - cron: '0 0 * * *' # Set your preferred schedule, e.g., every day
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
   sync:
